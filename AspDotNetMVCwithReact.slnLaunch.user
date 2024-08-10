@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "AspDotNetMVCwithReact.Server\\AspDotNetMVCwithReact.Server.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "aspdotnetmvcwithreact.client\\aspdotnetmvcwithreact.client.esproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "AspDotNetMVC\\AspDotNetMVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

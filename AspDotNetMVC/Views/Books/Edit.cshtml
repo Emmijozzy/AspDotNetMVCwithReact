@@ -1,0 +1,78 @@
+﻿@model AspDotNetMVC.Models.Book
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="min-h-screen flex items-center justify-center bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-lg w-full bg-white p-8 shadow-md rounded-lg space-y-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-gray-900">Edit Book</h1>
+            <h4 class="mt-2 text-sm text-gray-600">Modify the book details below</h4>
+        </div>
+        <form class="mt-8 space-y-6" asp-action="Edit" asp-controller="Books" asp-route-id="@Model.Id" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-red-600 mb-4"></div>
+            <div class="space-y-4">
+                <div>
+                    <label asp-for="Title" class="block text-sm font-medium text-gray-700">Title</label>
+                    <input asp-for="Title" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Title" />
+                    <span asp-validation-for="Title" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="Author" class="block text-sm font-medium text-gray-700">Author</label>
+                    <input asp-for="Author" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Author" />
+                    <span asp-validation-for="Author" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="ISBN" class="block text-sm font-medium text-gray-700">ISBN</label>
+                    <input asp-for="ISBN" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="ISBN" />
+                    <span asp-validation-for="ISBN" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="PublicationDate" class="block text-sm font-medium text-gray-700">Publication Date</label>
+                    <input asp-for="PublicationDate" type="date" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Publication Date" />
+                    <span asp-validation-for="PublicationDate" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="Description" class="block text-sm font-medium text-gray-700">Description</label>
+                    <textarea asp-for="Description" rows="4" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Description"></textarea>
+                    <span asp-validation-for="Description" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="NumberOfPages" class="block text-sm font-medium text-gray-700">Number of Pages</label>
+                    <input asp-for="NumberOfPages" type="number" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Number of Pages" />
+                    <span asp-validation-for="NumberOfPages" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="Genre" class="block text-sm font-medium text-gray-700">Genre</label>
+                    <input asp-for="Genre" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Genre" />
+                    <span asp-validation-for="Genre" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="Publisher" class="block text-sm font-medium text-gray-700">Publisher</label>
+                    <input asp-for="Publisher" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Publisher" />
+                    <span asp-validation-for="Publisher" class="text-red-600 text-sm"></span>
+                </div>
+                <div>
+                    <label asp-for="Language" class="block text-sm font-medium text-gray-700">Language</label>
+                    <input asp-for="Language" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Language" />
+                    <span asp-validation-for="Language" class="text-red-600 text-sm"></span>
+                </div>
+            </div>
+            <div class="mt-6">
+                <button type="submit" class="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                    Save Changes
+                </button>
+            </div>
+        </form>
+        <div class="text-center mt-4">
+            <a asp-action="Index" class="text-sm text-indigo-600 hover:text-indigo-500">Back to List</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

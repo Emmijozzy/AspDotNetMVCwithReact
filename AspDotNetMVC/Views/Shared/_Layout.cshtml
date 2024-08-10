@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - AspDotNetMVC</title>
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-100 flex flex-col">
+        <header class="bg-white shadow">
+            <nav class="container mx-auto px-4 py-2 flex justify-between items-center">
+                <a class="text-2xl font-bold text-gray-800" asp-area="" asp-controller="Home" asp-action="Index">Book Library</a>
+                <div class="md:hidden">
+                    <button class="navbar-toggler focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+                @* <div class="hidden md:flex space-x-4">
+                    <a class="nav-link text-gray-600 hover:text-gray-800" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    <a class="nav-link text-gray-600 hover:text-gray-800" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div> *@
+            </nav>
+        </header>
+        <div class="container mx-auto px-4 py-6">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="bg-white border-t border-gray-200 justify-self-end h-20">
+            <div class="container mx-auto px-4 py-4 text-center text-gray-600">
+                &copy; 2024 - Book Library - <a class="text-blue-500 hover:text-blue-700" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+</html>
+
