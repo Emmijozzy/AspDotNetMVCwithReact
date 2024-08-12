@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\AspDotNetMVC.csproj": {}
+    "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\AspDotNetMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\AspDotNetMVC.csproj": {
+    "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\AspDotNetMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\AspDotNetMVC.csproj",
+        "projectUniqueName": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\AspDotNetMVC.csproj",
         "projectName": "AspDotNetMVC",
-        "projectPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\AspDotNetMVC.csproj",
+        "projectPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\AspDotNetMVC.csproj",
         "packagesPath": "C:\\Users\\EmmiJozzy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\obj\\",
+        "outputPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

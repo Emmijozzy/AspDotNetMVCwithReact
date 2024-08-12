@@ -4,6 +4,8 @@ namespace AspDotNetMVC.Models
 {
     public class Register
     {
+        [Required(ErrorMessage = "Username is required")]
+        [MinLength(3, ErrorMessage ="Username must be at least 3 characters long")]
         public string UserName { get; set; }
 
         [Required(ErrorMessage = "Email is required")]

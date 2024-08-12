@@ -9,18 +9,27 @@
     <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">tsc -b &amp;&amp; vite build</PackageJsonScriptsBuild>
     <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0</PackageJsonScriptsLint>
     <PackageJsonScriptsPreview Condition="$(PackageJsonScriptsPreview) == ''">vite preview</PackageJsonScriptsPreview>
+    <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.7.3</PackageJsonDependenciesAxios>
+    <PackageJsonDependenciesFormik Condition="$(PackageJsonDependenciesFormik) == ''">^2.4.6</PackageJsonDependenciesFormik>
+    <PackageJsonDependenciesJwtDecode Condition="$(PackageJsonDependenciesJwtDecode) == ''">^4.0.0</PackageJsonDependenciesJwtDecode>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.3.1</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.3.1</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactRouterDom Condition="$(PackageJsonDependenciesReactRouterDom) == ''">^6.26.0</PackageJsonDependenciesReactRouterDom>
+    <PackageJsonDependenciesYup Condition="$(PackageJsonDependenciesYup) == ''">^1.4.0</PackageJsonDependenciesYup>
+    <PackageJsonDependenciesYupPassword Condition="$(PackageJsonDependenciesYupPassword) == ''">^0.4.0</PackageJsonDependenciesYupPassword>
+    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^20.10.0</PackageJsonDevdependenciesTypesNode>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.3.3</PackageJsonDevdependenciesTypesReact>
     <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.3.0</PackageJsonDevdependenciesTypesReactDom>
     <PackageJsonDevdependenciesTypescriptEslintEslintPlugin Condition="$(PackageJsonDevdependenciesTypescriptEslintEslintPlugin) == ''">^7.15.0</PackageJsonDevdependenciesTypescriptEslintEslintPlugin>
     <PackageJsonDevdependenciesTypescriptEslintParser Condition="$(PackageJsonDevdependenciesTypescriptEslintParser) == ''">^7.15.0</PackageJsonDevdependenciesTypescriptEslintParser>
     <PackageJsonDevdependenciesVitejsPluginReact Condition="$(PackageJsonDevdependenciesVitejsPluginReact) == ''">^4.3.1</PackageJsonDevdependenciesVitejsPluginReact>
+    <PackageJsonDevdependenciesAutoprefixer Condition="$(PackageJsonDevdependenciesAutoprefixer) == ''">^10.4.20</PackageJsonDevdependenciesAutoprefixer>
     <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^8.57.0</PackageJsonDevdependenciesEslint>
     <PackageJsonDevdependenciesEslintPluginReactHooks Condition="$(PackageJsonDevdependenciesEslintPluginReactHooks) == ''">^4.6.2</PackageJsonDevdependenciesEslintPluginReactHooks>
     <PackageJsonDevdependenciesEslintPluginReactRefresh Condition="$(PackageJsonDevdependenciesEslintPluginReactRefresh) == ''">^0.4.7</PackageJsonDevdependenciesEslintPluginReactRefresh>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">^8.4.41</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">^3.4.9</PackageJsonDevdependenciesTailwindcss>
     <PackageJsonDevdependenciesTypescript Condition="$(PackageJsonDevdependenciesTypescript) == ''">^5.2.2</PackageJsonDevdependenciesTypescript>
     <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^5.3.4</PackageJsonDevdependenciesVite>
-    <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^20.10.0</PackageJsonDevdependenciesTypesNode>
   </PropertyGroup>
 </Project>

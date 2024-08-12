@@ -688,6 +688,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .block {
   display: block;
 }
@@ -738,6 +742,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .w-3 {
@@ -818,6 +826,10 @@ video {
   gap: 0.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -871,10 +883,6 @@ video {
 .divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(226 232 240 / var(--tw-divide-opacity));
-}
-
-.justify-self-end {
-  justify-self: end;
 }
 
 .overflow-x-auto {

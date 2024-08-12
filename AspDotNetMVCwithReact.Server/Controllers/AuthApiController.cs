@@ -8,8 +8,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace AspDotNetMVCwithReact.Server.Controllers
 {
     [Route("api/[controller]")]
@@ -26,6 +24,7 @@ namespace AspDotNetMVCwithReact.Server.Controllers
         }
 
         [HttpPost("login")]
+        [Consumes("application/json")]
         public async Task<IActionResult> Login([FromBody] Login model)
         {
             if (!ModelState.IsValid)
@@ -38,7 +37,7 @@ namespace AspDotNetMVCwithReact.Server.Controllers
             {
                 var token = GenerateJwtToken(user);
                 user.AccessToken = token;
-                user.RefreshTokenExpiryTime = DateTime.Now.AddMinutes(4); // Set refresh token expiry time
+                user.RefreshTokenExpiryTime = DateTime.Now.AddDays(1); // Set refresh token expiry time
                 await _userManager.UpdateAsync(user);
 
                 return Ok(new { token });
@@ -82,6 +81,8 @@ namespace AspDotNetMVCwithReact.Server.Controllers
 
             var authHeader = Request.Headers.Authorization;
 
+            Console.WriteLine($"{authHeader} authhthththththththt");
+
             if (authHeader.Any())
             {
                 expiredToken = authHeader.First().Split(" ").Last();
@@ -93,6 +94,8 @@ namespace AspDotNetMVCwithReact.Server.Controllers
 
             var user = await _userManager.FindByNameAsync(userId);
 
+            Console.WriteLine($"{user.RefreshTokenExpiryTime > DateTime.Now} aut6666666666677 {user.RefreshTokenExpiryTime}");
+
             if (user.RefreshTokenExpiryTime > DateTime.Now)
             {
 
@@ -101,7 +104,7 @@ namespace AspDotNetMVCwithReact.Server.Controllers
                 return Ok(new { token });
             }
 
-            return Unauthorized();
+            return Ok();
         }
 
         private string GenerateJwtToken(ApplicationUser user)
@@ -124,7 +127,7 @@ namespace AspDotNetMVCwithReact.Server.Controllers
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Issuer"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(60), // Token expiry time
+                expires: DateTime.Now.AddMinutes(300), // Token expiry time
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

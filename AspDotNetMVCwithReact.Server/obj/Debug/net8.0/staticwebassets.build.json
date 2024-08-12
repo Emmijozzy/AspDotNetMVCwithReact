@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RRwzEi2how9W6IaEZVga71AqxdflBIjHM/3SkHB/HJA=",
+  "Hash": "wlnWJk5uhLhlo/IKGXYnfZOwaOE/1fmCtSOkhkKkTw0=",
   "Source": "AspDotNetMVCwithReact.Server",
   "BasePath": "_content/AspDotNetMVCwithReact.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "aspdotnetmvcwithreact.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

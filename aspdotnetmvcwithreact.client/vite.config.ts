@@ -39,7 +39,7 @@ console.log(env.ASPNETCORE_HTTPS_PORT, "env.ASPNETCORE_HTTPS_PORT")
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [plugin()],
+    plugins: [plugin()] ,
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url))
@@ -51,6 +51,12 @@ export default defineConfig({
                 target,
                 secure: false
             },
+            '^/api/AuthApi/login': {
+                target,
+                secure: false,
+                changeOrigin: true,
+                // rewrite: (path) => path.replace(/^\/api/, '')
+            }
         },
         port: 5173,
         https: {

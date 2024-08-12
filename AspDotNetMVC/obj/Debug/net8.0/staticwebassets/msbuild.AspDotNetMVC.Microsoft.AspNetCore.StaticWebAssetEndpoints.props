@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\AspDotNetMVC.bundle.scp.css))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Qft5y1wn33pwpg24vEY0x516SizmWP7DAD6etE5XvD0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 Aug 2024 23:30:24 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Qft5y1wn33pwpg24vEY0x516SizmWP7DAD6etE5XvD0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 Aug 2024 22:59:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AspDotNetMVC/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"25739"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022G9mx\u002BYl4\u002BaEhjWLOE1Z/mOG5WZV1qcnPPemL6bKO9Ms=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 Aug 2024 06:51:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"25781"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022S0\u002BbXxLe4mzNBup\u002BfydF7wM0U09Lon9oMMY434Ab9v4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 10 Aug 2024 15:10:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AspDotNetMVC/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</AssetFile>

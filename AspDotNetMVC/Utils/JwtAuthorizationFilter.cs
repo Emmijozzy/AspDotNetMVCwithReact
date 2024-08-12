@@ -28,9 +28,8 @@ public class JwtAuthorizationFilter : IAuthorizationFilter
         }
         
         var token = _httpContextAccessor.HttpContext?.Request.Cookies["AuthToken"];
-        var token4 = _httpContextAccessor.HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
-
-        Console.WriteLine($"{token4} {token}  tokenAuth");
+        // var token4 = _httpContextAccessor.HttpContext.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+        // Console.WriteLine($"{token4} {token}  tokenAuth");
 
         if (token == null)
         {

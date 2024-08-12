@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\obj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BAF5706-62ED-4E5B-9B2A-1BA732175D12}|AspDotNetMVCwithReact.Server.csproj|c:\\users\\emmijozzy\\desktop\\csharp\\cboard\\aspdotnetmvcwithreact\\aspdotnetmvcwithreact.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Program.cs",
+              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Program.cs",
+              "RelativeToolTip": "..\\Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T23:07:32.181Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

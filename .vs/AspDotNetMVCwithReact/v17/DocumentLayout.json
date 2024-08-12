@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +31,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "AspDotNetMVC\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\Login.cs",
+              "RelativeToolTip": "AspDotNetMVC\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T22:45:17.737Z",
+              "EditorCaption": ""
             }
           ]
         }

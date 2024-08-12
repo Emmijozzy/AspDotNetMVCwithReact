@@ -39,7 +39,6 @@ namespace AspDotNetMVCwithReact.Server.Controllers
         }
 
         // PUT: api/Books/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutBook(int id, Book book)
         {
@@ -70,7 +69,6 @@ namespace AspDotNetMVCwithReact.Server.Controllers
         }
 
         // POST: api/Books
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Book>> PostBook(Book book)
         {
