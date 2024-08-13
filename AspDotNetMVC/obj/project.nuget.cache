@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eul2fVBoFfs=",
+  "dgSpecHash": "euaMx9Hl9j4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\aspdotnetmvc\\AspDotNetMVC.csproj",
+  "projectFilePath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\AspDotNetMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EmmiJozzy\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\EmmiJozzy\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

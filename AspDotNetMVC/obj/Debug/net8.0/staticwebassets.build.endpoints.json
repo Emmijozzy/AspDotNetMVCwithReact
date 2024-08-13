@@ -40,7 +40,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25781"
+          "Value": "25409"
         },
         {
           "Name": "Content-Type",
@@ -48,11 +48,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"S0+bXxLe4mzNBup+fydF7wM0U09Lon9oMMY434Ab9v4=\""
+          "Value": "\"y7i/4ERu95vXJgeNOREYTGLGc8y07E+pDc7guINNkfE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 10 Aug 2024 15:10:33 GMT"
+          "Value": "Tue, 13 Aug 2024 21:18:04 GMT"
         }
       ],
       "EndpointProperties": []

@@ -17,68 +17,68 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AspDotNetMVC
 build_property.RootNamespace = AspDotNetMVC
-build_property.ProjectDir = C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\aspdotnetmvc\
+build_property.ProjectDir = C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\aspdotnetmvc
+build_property.MSBuildProjectDirectory = C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Auth/Login.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Auth/Register.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Books/Create.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Books/Delete.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Books/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Books/Details.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Books/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Books/Edit.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Books/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Books/Index.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Books/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Home/Index.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Home/Privacy.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Shared/Error.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/_ViewImports.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/_ViewStart.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/aspdotnetmvc/Views/Shared/_Layout.cshtml]
+[C:/Users/EmmiJozzy/Desktop/csharp/CBOARD/AspDotNetMVCwithReact/AspDotNetMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iiy2rkbf3d
