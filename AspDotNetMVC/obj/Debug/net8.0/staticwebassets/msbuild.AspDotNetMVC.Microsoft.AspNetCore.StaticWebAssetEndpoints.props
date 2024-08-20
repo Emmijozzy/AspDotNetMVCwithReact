@@ -10,7 +10,7 @@
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\css\site.css))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"25409"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y7i/4ERu95vXJgeNOREYTGLGc8y07E\u002BpDc7guINNkfE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 Aug 2024 21:18:04 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Content-Length","Value":"25611"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VwfT8iANhSVenz\u002BvPgNh/ddXQ6LdYuH9tm\u002BH44hVIoQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 Aug 2024 22:34:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AspDotNetMVC/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</AssetFile>

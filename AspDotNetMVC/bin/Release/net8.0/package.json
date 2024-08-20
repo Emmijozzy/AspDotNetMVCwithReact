@@ -1,0 +1,16 @@
+{
+  "name": "aspdotnetmvc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./styles.css -o ./wwwroot/css/site.css",
+    "watch:css": "tailwindcss -i ./styles.css -o ./wwwroot/css/site.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.8"
+  }
+}

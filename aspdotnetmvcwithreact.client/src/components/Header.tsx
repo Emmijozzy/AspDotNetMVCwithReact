@@ -1,20 +1,60 @@
+import { useEffect, useState } from "react";
+import UseFetch from "../Hooks/UseFetch"
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const [logined, setLogined] = useState(false);
+  const [logoutErr, setLogotErr] = useState("")
+  const { data, error, fetchData } = UseFetch();
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+
+
+  const handlerLogout = () => {
+    const authToken = localStorage.getItem("authToken") as string
+    const values = {
+      token: authToken
+    }
+     fetchData("AuthApi/logout", {method: 'post', data: {...values}});
+  }
+
+  useEffect(() => {
+    if(Number(data.status) == 200) {
+      localStorage.removeItem("authToken");
+      navigate("/");
+    }
+
+    console.log(error)
+    if (error) {
+      setLogotErr("Error logging out")
+    }
+  }, [data, error])
+
+  useEffect(() => {
+    const path = location.pathname;
+    if (path.includes("Book")) {
+      setLogined(true);
+    } else {
+      setLogined(false);
+    }
+    console.log(path);
+  })
+ 
+
+
+
   return (
-    <header className="bg-white shadow">
-      <nav className="container mx-auto px-4 py-2 flex justify-between items-center">
-        <a className="text-2xl font-bold text-gray-800" asp-area="" asp-controller="Home" asp-action="Index">Book Library</a>
-        <div className="md:hidden">
-            <button className="navbar-toggler focus:outline-none" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </button>
-        </div>
-        {/* <div className="hidden md:flex space-x-4">
-            <a className="nav-link text-gray-600 hover:text-gray-800" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            <a className="nav-link text-gray-600 hover:text-gray-800" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>  */}
-      </nav>
-    </header>
+    <>
+      <header className="bg-white shadow">
+        <nav className="container mx-auto px-4 py-2 flex justify-between items-center">
+          <Link to="/" className="text-2xl font-bold text-gray-800" >Book Library</Link>
+          { logined &&  <button className="nav-link text-gray-600 hover:text-gray-800" onClick={handlerLogout}>Logout</button> }       
+        </nav>
+      </header>
+      <p className="bg-red-500 text-gray-800 rounded-sm px-2 w-full" >{logoutErr}</p>
+    </>
   )
 }
 export default Header

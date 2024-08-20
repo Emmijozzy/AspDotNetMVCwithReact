@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace AspDotNetMVC.Controllers
 {
     [JwtAuthorize]
-    public class BooksController : Controller
+    public class BooksController : BaseController
     {
         private readonly HttpRequestHandler _requestHandler;
         private readonly HttpClient _httpClient;
@@ -34,6 +34,14 @@ namespace AspDotNetMVC.Controllers
             var responseData = await response.Content.ReadAsStringAsync();
             var books = JsonConvert.DeserializeObject<IEnumerable<Book>>(responseData);
 
+            var error = TempData["Error"] as string;
+
+            if (string.IsNullOrEmpty(error))
+            {
+                error = "";
+            }
+
+            ViewData["Error"] = error;
             return View(books);
         }
 
@@ -117,15 +125,6 @@ namespace AspDotNetMVC.Controllers
             {
                 return BadRequest();
             }
-
-            Console.WriteLine(ModelState.IsValid);
-
-            Console.WriteLine(ModelState);
-
-            Console.WriteLine(book.Title);
-            Console.WriteLine(book.Author);
-            Console.WriteLine(book.Genre);
-
 
 
             if (ModelState.IsValid)

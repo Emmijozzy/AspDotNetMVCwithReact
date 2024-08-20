@@ -3,16 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|c:\\users\\emmijozzy\\desktop\\csharp\\cboard\\aspdotnetmvcwithreact\\aspdotnetmvcwithreact.server\\controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|solutionrelative:controllers\\booksapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|c:\\users\\emmijozzy\\desktop\\csharp\\cboard\\aspdotnetmvcwithreact\\aspdotnetmvcwithreact.server\\controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|solutionrelative:controllers\\authapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|c:\\users\\emmijozzy\\desktop\\csharp\\cboard\\aspdotnetmvcwithreact\\aspdotnetmvcwithreact.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{372D3F10-AE99-41DA-8D1E-CC82FDF472F2}|AspDotNetMVCwithReact.Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +36,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAEMAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T00:33:17.627Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthApiController.cs",
-              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthApiController.cs",
-              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "RelativeToolTip": "Controllers\\AuthApiController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAQwGIAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T10:56:58.674Z"
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\AspDotNetMVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\AspDotNetMVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T16:53:30.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BooksApiController.cs",
-              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\BooksApiController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BooksApiController.cs",
-              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\BooksApiController.cs",
-              "RelativeToolTip": "Controllers\\BooksApiController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T12:11:02.67Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\AspDotNetMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\AspDotNetMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T16:53:51.373Z",
               "EditorCaption": ""
             }
           ]

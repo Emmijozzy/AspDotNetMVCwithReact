@@ -265,3 +265,4 @@ C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVCwithR
 C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVCwithReact.Server\obj\Debug\net8.0\AspDotNetMVCwithReact.Server.pdb
 C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVCwithReact.Server\obj\Debug\net8.0\AspDotNetMVCwithReact.Server.genruntimeconfig.cache
 C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVCwithReact.Server\obj\Debug\net8.0\ref\AspDotNetMVCwithReact.Server.dll
+C:\Users\EmmiJozzy\Desktop\csharp\CBOARD\AspDotNetMVCwithReact\AspDotNetMVCwithReact.Server\bin\Debug\net8.0\AspDotNetMVCwithReact.Server.staticwebassets.runtime.json

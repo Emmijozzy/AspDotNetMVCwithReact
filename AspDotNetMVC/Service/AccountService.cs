@@ -1,5 +1,7 @@
 ﻿using AspDotNetMVC.Models;
+using System.Net.Http.Json;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace AspDotNetMVC.Service
 {
@@ -54,6 +56,45 @@ namespace AspDotNetMVC.Service
             }
 
             return loginResult;
+        }
+
+        public async Task<bool> LogoutAsync(LogoutRequest logout)
+        {
+
+            var response = await _httpClient.PostAsJsonAsync("Logout", logout);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+
+                if (string.IsNullOrEmpty(errorContent))
+                {
+                    Console.WriteLine("Empty Response");
+                    return false;
+                }
+
+                try
+                {
+                    var jsonError = JObject.Parse(errorContent);
+
+                    var errorMessage = jsonError["message"]?.ToString();
+
+                    var errorCode = jsonError["code"]?.ToString();
+
+                    Console.WriteLine($"Error: {errorMessage}, Code: {errorCode}");
+                    return false;
+
+                }
+                catch (JsonReaderException ex)
+                {
+                    Console.WriteLine($"{ex}, jsonError");
+                    return false;
+                }
+
+            }
+
+            // Handle the successful response
+            return response.IsSuccessStatusCode;
         }
     }
 }

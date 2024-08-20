@@ -1,0 +1,30 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-AspDotNetMVCwithReact.slnLaunch",
+      "appliesTo": "AspDotNetMVCwithReact.slnLaunch.user",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-AspDotNetMVCwithReact.slnLaunch",
+      "appliesTo": "AspDotNetMVCwithReact.Server/AspDotNetMVCwithReact.Server.csproj.user",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-AspDotNetMVCwithReact.Server",
+      "appliesTo": "AspDotNetMVCwithReact.Server/AspDotNetMVCwithReact.Server.csproj",
+      "type": "msbuild"
+    },
+    {
+      "taskLabel": "task-AspDotNetMVCwithReact.slnLaunch",
+      "appliesTo": "AspDotNetMVC/AspDotNetMVC.csproj.user",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-AspDotNetMVCwithReact.Server",
+      "appliesTo": "AspDotNetMVC/AspDotNetMVC.csproj",
+      "type": "msbuild"
+    }
+  ]
+}

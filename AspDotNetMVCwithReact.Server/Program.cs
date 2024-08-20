@@ -18,7 +18,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(option =>
 
 builder.Services.AddIdentityCore<ApplicationUser>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-    // .AddDefaultTokenProviders();
+// .AddDefaultTokenProviders();
 
 //Configuration for Authentication
 builder.Services.AddAuthentication(options =>

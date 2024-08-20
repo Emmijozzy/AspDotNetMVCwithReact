@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AspDotNetMVC",
+    "\\AspDotNetMVCwithReact.Server",
+    "\\AspDotNetMVCwithReact.Server\\Controllers",
+    "\\AspDotNetMVC\\Controllers",
+    "\\AspDotNetMVC\\Service",
+    "\\AspDotNetMVC\\Utils",
+    "\\AspDotNetMVC\\Views",
+    "\\AspDotNetMVC\\Views\\Books",
+    "\\AspDotNetMVC\\Views\\Shared"
   ],
-  "SelectedNode": "\\AspDotNetMVCwithReact.sln",
+  "SelectedNode": "\\AspDotNetMVCwithReact.Server\\Controllers\\BooksApiController.cs",
   "PreviewInSolutionExplorer": false
 }

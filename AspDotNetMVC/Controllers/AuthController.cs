@@ -91,6 +91,35 @@ namespace AspDotNetMVC.Controllers
 
             return View(model);
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Logout()
+        {
+            var token = Request.Cookies?["AuthToken"];
+
+            if (string.IsNullOrEmpty(token))
+            {
+                token = "";
+            }
+            var logout = new LogoutRequest
+            {
+                Token = token
+            };
+
+            Console.WriteLine($"{token} token");
+            var result = await _accountService.LogoutAsync(logout);
+            
+            if (result)
+            {
+                Response.Cookies.Delete("AuthToken");
+
+                return RedirectToAction("Index", "Home");
+            }
+            
+            Console.WriteLine("Error logging Out");
+            TempData["Error"] = "Error logging out ";
+            return RedirectToAction("Index", "Books");
+        }
     }
 
 }

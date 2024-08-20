@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0+BI/ootnEhJtncQB+FKz9QbY6HOZE0LjgieMLgdhkc=",
+  "Hash": "3+UsljnVhV+ZGcDHb9Rw8gb0bpfNUBZxvlvBsuJqQhc=",
   "Source": "AspDotNetMVC",
   "BasePath": "_content/AspDotNetMVC",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9nrxph6po3",
-      "Integrity": "y7i/4ERu95vXJgeNOREYTGLGc8y07E+pDc7guINNkfE=",
+      "Fingerprint": "v2niupeg83",
+      "Integrity": "VwfT8iANhSVenz+vPgNh/ddXQ6LdYuH9tm+H44hVIoQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1387,7 +1387,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25409"
+          "Value": "25611"
         },
         {
           "Name": "Content-Type",
@@ -1395,11 +1395,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"y7i/4ERu95vXJgeNOREYTGLGc8y07E+pDc7guINNkfE=\""
+          "Value": "\"VwfT8iANhSVenz+vPgNh/ddXQ6LdYuH9tm+H44hVIoQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 Aug 2024 21:18:04 GMT"
+          "Value": "Sun, 18 Aug 2024 22:34:16 GMT"
         }
       ],
       "EndpointProperties": []

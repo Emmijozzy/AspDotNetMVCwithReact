@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspDotNetMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daab07c6f5fd1d88694d857985bfda1ec7bbf18d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+700033fc8002eed7d671e8524e6f7bb01c68fcb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspDotNetMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspDotNetMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

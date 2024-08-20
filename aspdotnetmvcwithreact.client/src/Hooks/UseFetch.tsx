@@ -10,7 +10,7 @@ interface Options {
 
 interface Error {
   response?: {
-    data?: Record<string, string> | string;
+    data?: Record<string, string | number> | string;
     status: number;
     title: string;
   };
@@ -95,6 +95,7 @@ const UseFetch = () => {
       console.log(response);
 
       if(response.status == 200) {
+        response.data.status = response?.status as number
         setData(response.data);
         console.log(response);
         setLoading(false)
