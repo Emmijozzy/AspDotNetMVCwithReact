@@ -35,12 +35,12 @@ const Register = () => {
                 </div>
                 <div>
                     <label htmlFor="password" className="sr-only">Password</label>
-                    <input id="password" name="password" value={values.password} onChange={handleChange} onBlur={handleBlur} className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password" />
+                    <input id="password" name="password" type="password" value={values.password} onChange={handleChange} onBlur={handleBlur} className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Password" />
                     <span  className="text-red-500">{errors.password}</span>
                 </div>
                 <div>
                     <label htmlFor="confirmPassword" className="sr-only">Confirm Password</label>
-                    <input id="confirmPassword" name="confirmPassword" value={values.confirmPassword} onChange={handleChange} onBlur={handleBlur} className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Confirm Password" />
+                    <input id="confirmPassword" type="password" name="confirmPassword" value={values.confirmPassword} onChange={handleChange} onBlur={handleBlur} className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" placeholder="Confirm Password" />
                     <span className="text-red-500">{errors.confirmPassword}</span>
                 </div>
             </div>

@@ -3,14 +3,13 @@
     "",
     "\\AspDotNetMVC",
     "\\AspDotNetMVCwithReact.Server",
-    "\\AspDotNetMVCwithReact.Server\\Controllers",
-    "\\AspDotNetMVC\\Controllers",
+    "\\AspDotNetMVCwithReact.Server\\Models",
+    "\\AspDotNetMVC\\Models",
     "\\AspDotNetMVC\\Service",
     "\\AspDotNetMVC\\Utils",
     "\\AspDotNetMVC\\Views",
     "\\AspDotNetMVC\\Views\\Books",
     "\\AspDotNetMVC\\Views\\Shared"
   ],
-  "SelectedNode": "\\AspDotNetMVCwithReact.Server\\Controllers\\BooksApiController.cs",
   "PreviewInSolutionExplorer": false
 }

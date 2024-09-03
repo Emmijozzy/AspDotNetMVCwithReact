@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVCwithReact.Server\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVCwithReact.Server\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Service\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Utils\\HttpRequestHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Utils\\HttpRequestHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVCwithReact.Server\\Models\\Login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Models\\LogoutRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Utils\\HttpRequestHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AspDotNetMVC\\Utils\\HttpRequestHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Controllers\\BooksController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -108,7 +108,7 @@
               "RelativeDocumentMoniker": "AspDotNetMVC\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Controllers\\AuthController.cs",
               "RelativeToolTip": "AspDotNetMVC\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAgwHAAAAAAAAAA",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAHMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T13:06:05.69Z"
             },
@@ -120,7 +120,7 @@
               "RelativeDocumentMoniker": "AspDotNetMVC\\Service\\AccountService.cs",
               "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Service\\AccountService.cs",
               "RelativeToolTip": "AspDotNetMVC\\Service\\AccountService.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFoAAAAhAAAA",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAFoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T13:06:31.792Z"
             },
@@ -174,19 +174,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthApiController.cs",
-              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "RelativeDocumentMoniker": "AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "RelativeToolTip": "AspDotNetMVCwithReact.Server\\Controllers\\AuthApiController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T15:03:13.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "BooksApiController.cs",
               "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\BooksApiController.cs",
@@ -211,19 +198,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "LogoutRequest.cs",
               "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\LogoutRequest.cs",
               "RelativeDocumentMoniker": "AspDotNetMVC\\Models\\LogoutRequest.cs",
               "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Models\\LogoutRequest.cs",
               "RelativeToolTip": "AspDotNetMVC\\Models\\LogoutRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T15:18:15.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HttpRequestHandler.cs",
               "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVC\\Utils\\HttpRequestHandler.cs",
               "RelativeDocumentMoniker": "AspDotNetMVC\\Utils\\HttpRequestHandler.cs",
@@ -243,12 +230,11 @@
               "RelativeToolTip": "AspDotNetMVCwithReact.Server\\Models\\LogoutRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T23:28:06.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T23:28:06.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Models\\Login.cs",
               "RelativeDocumentMoniker": "AspDotNetMVCwithReact.Server\\Models\\Login.cs",
@@ -257,6 +243,19 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T23:28:18.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthApiControllre.cs",
+              "DocumentMoniker": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs",
+              "RelativeDocumentMoniker": "AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs",
+              "ToolTip": "C:\\Users\\EmmiJozzy\\Desktop\\csharp\\CBOARD\\AspDotNetMVCwithReact\\AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs",
+              "RelativeToolTip": "AspDotNetMVCwithReact.Server\\Controllers\\AuthApiControllre.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAowHEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T01:02:35.9Z",
+              "EditorCaption": ""
             }
           ]
         }
